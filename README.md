@@ -1,1 +1,1 @@
-# baseball-investigations
+# Baseball Investigations
