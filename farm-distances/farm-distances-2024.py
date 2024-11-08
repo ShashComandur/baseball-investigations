@@ -49,7 +49,7 @@ def store_data_in_postgres():
     with open('locations.json', 'r') as f:
         raw_locations = json.load(f)
 
-    flattened_teams = [flatten(team) for team in raw_teams]
+    flattened_teams = [flatten(team) for raw_team in raw_teams]
     flattened_locations = [flatten(venue) for raw_location in raw_locations for venue in raw_location["venues"]]
 
     filtered_teams = remove_duplicates_by_id(flattened_teams)

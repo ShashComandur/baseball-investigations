@@ -1,0 +1,1372 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1227.1336                               -->
+<workbook original-version='18.1' source-build='2023.3.1 (20233.23.1227.1336)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelRelationshipPerfOptions.true...ObjectModelRelationshipPerfOptions />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='investigations' inline='true' name='federated.0cjulmd1d32s52173dpp21sbcyl1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='127.0.0.1' name='postgres.1egdpgw1gvsqh218filks08z673y'>
+            <connection authentication='username-password' class='postgres' dbname='investigations' one-time-sql='' port='5432' server='127.0.0.1' username='postgres' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='postgres.1egdpgw1gvsqh218filks08z673y' name='locations' table='[public].[locations]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='postgres.1egdpgw1gvsqh218filks08z673y' name='locations' table='[public].[locations]' type='table' />
+          <relation connection='postgres.1egdpgw1gvsqh218filks08z673y' name='teams' table='[public].[teams]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[abbreviation]' value='[teams].[abbreviation]' />
+          <map key='[active (teams)]' value='[teams].[active]' />
+          <map key='[active]' value='[locations].[active]' />
+          <map key='[all_star_status]' value='[teams].[all_star_status]' />
+          <map key='[clubname]' value='[teams].[clubname]' />
+          <map key='[division_id]' value='[teams].[division_id]' />
+          <map key='[division_link]' value='[teams].[division_link]' />
+          <map key='[division_name]' value='[teams].[division_name]' />
+          <map key='[fieldinfo_capacity]' value='[locations].[fieldinfo_capacity]' />
+          <map key='[fieldinfo_center]' value='[locations].[fieldinfo_center]' />
+          <map key='[fieldinfo_left]' value='[locations].[fieldinfo_left]' />
+          <map key='[fieldinfo_leftcenter]' value='[locations].[fieldinfo_leftcenter]' />
+          <map key='[fieldinfo_leftline]' value='[locations].[fieldinfo_leftline]' />
+          <map key='[fieldinfo_right]' value='[locations].[fieldinfo_right]' />
+          <map key='[fieldinfo_rightcenter]' value='[locations].[fieldinfo_rightcenter]' />
+          <map key='[fieldinfo_rightline]' value='[locations].[fieldinfo_rightline]' />
+          <map key='[fieldinfo_rooftype]' value='[locations].[fieldinfo_rooftype]' />
+          <map key='[fieldinfo_turftype]' value='[locations].[fieldinfo_turftype]' />
+          <map key='[filecode]' value='[teams].[filecode]' />
+          <map key='[firstyearofplay]' value='[teams].[firstyearofplay]' />
+          <map key='[franchisename]' value='[teams].[franchisename]' />
+          <map key='[id (teams)]' value='[teams].[id]' />
+          <map key='[id]' value='[locations].[id]' />
+          <map key='[league_id]' value='[teams].[league_id]' />
+          <map key='[league_link]' value='[teams].[league_link]' />
+          <map key='[league_name]' value='[teams].[league_name]' />
+          <map key='[link (teams)]' value='[teams].[link]' />
+          <map key='[link]' value='[locations].[link]' />
+          <map key='[location_address1]' value='[locations].[location_address1]' />
+          <map key='[location_azimuthangle]' value='[locations].[location_azimuthangle]' />
+          <map key='[location_city]' value='[locations].[location_city]' />
+          <map key='[location_country]' value='[locations].[location_country]' />
+          <map key='[location_defaultcoordinates_latitude]' value='[locations].[location_defaultcoordinates_latitude]' />
+          <map key='[location_defaultcoordinates_longitude]' value='[locations].[location_defaultcoordinates_longitude]' />
+          <map key='[location_elevation]' value='[locations].[location_elevation]' />
+          <map key='[location_phone]' value='[locations].[location_phone]' />
+          <map key='[location_postalcode]' value='[locations].[location_postalcode]' />
+          <map key='[location_state]' value='[locations].[location_state]' />
+          <map key='[location_stateabbrev]' value='[locations].[location_stateabbrev]' />
+          <map key='[locationname]' value='[teams].[locationname]' />
+          <map key='[name (teams)]' value='[teams].[name]' />
+          <map key='[name]' value='[locations].[name]' />
+          <map key='[parentorgid]' value='[teams].[parentorgid]' />
+          <map key='[parentorgname]' value='[teams].[parentorgname]' />
+          <map key='[season (teams)]' value='[teams].[season]' />
+          <map key='[season]' value='[locations].[season]' />
+          <map key='[shortname]' value='[teams].[shortname]' />
+          <map key='[sport_id]' value='[teams].[sport_id]' />
+          <map key='[sport_link]' value='[teams].[sport_link]' />
+          <map key='[sport_name]' value='[teams].[sport_name]' />
+          <map key='[teamcode]' value='[teams].[teamcode]' />
+          <map key='[teamname]' value='[teams].[teamname]' />
+          <map key='[timezone_id]' value='[locations].[timezone_id]' />
+          <map key='[timezone_offset]' value='[locations].[timezone_offset]' />
+          <map key='[timezone_offsetatgametime]' value='[locations].[timezone_offsetatgametime]' />
+          <map key='[timezone_tz]' value='[locations].[timezone_tz]' />
+          <map key='[venue_active]' value='[teams].[venue_active]' />
+          <map key='[venue_id]' value='[teams].[venue_id]' />
+          <map key='[venue_link]' value='[teams].[venue_link]' />
+          <map key='[venue_name]' value='[teams].[venue_name]' />
+          <map key='[venue_season]' value='[teams].[venue_season]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[link]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>link</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_address1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location_address1]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_address1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location_city]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_city</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location_state]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_state</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_stateabbrev</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location_stateabbrev]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_stateabbrev</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_postalcode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location_postalcode]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_postalcode</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_defaultcoordinates_latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[location_defaultcoordinates_latitude]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_defaultcoordinates_latitude</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_defaultcoordinates_longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[location_defaultcoordinates_longitude]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_defaultcoordinates_longitude</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_azimuthangle</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[location_azimuthangle]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_azimuthangle</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_elevation</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[location_elevation]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_elevation</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location_country]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_country</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_phone</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location_phone]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>location_phone</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timezone_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[timezone_id]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>timezone_id</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timezone_offset</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[timezone_offset]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>timezone_offset</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timezone_offsetatgametime</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[timezone_offsetatgametime]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>timezone_offsetatgametime</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timezone_tz</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[timezone_tz]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>timezone_tz</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldinfo_capacity</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[fieldinfo_capacity]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>fieldinfo_capacity</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldinfo_turftype</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[fieldinfo_turftype]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>fieldinfo_turftype</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldinfo_rooftype</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[fieldinfo_rooftype]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>fieldinfo_rooftype</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldinfo_leftline</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[fieldinfo_leftline]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>fieldinfo_leftline</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldinfo_left</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[fieldinfo_left]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>fieldinfo_left</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldinfo_leftcenter</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[fieldinfo_leftcenter]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>fieldinfo_leftcenter</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldinfo_center</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[fieldinfo_center]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>fieldinfo_center</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldinfo_rightcenter</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[fieldinfo_rightcenter]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>fieldinfo_rightcenter</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldinfo_right</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[fieldinfo_right]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>fieldinfo_right</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldinfo_rightline</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[fieldinfo_rightline]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>fieldinfo_rightline</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>active</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[active]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>active</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[locations]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[locations_467367B3325A40A7ABFDC566EEFDCB8C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>all_star_status</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[all_star_status]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>all_star_status</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id (teams)]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name (teams)]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[link (teams)]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>link</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[season (teams)]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>venue_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[venue_id]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>venue_id</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>venue_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[venue_name]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>venue_name</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>venue_link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[venue_link]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>venue_link</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>venue_active</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[venue_active]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>venue_active</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>venue_season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[venue_season]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>venue_season</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamcode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[teamcode]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>teamcode</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>filecode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[filecode]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>filecode</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>abbreviation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[abbreviation]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>abbreviation</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[teamname]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>teamname</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>locationname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[locationname]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>locationname</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>firstyearofplay</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[firstyearofplay]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>firstyearofplay</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>league_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[league_id]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>league_id</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>league_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[league_name]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>league_name</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>league_link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[league_link]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>league_link</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>division_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[division_id]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>division_id</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>division_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[division_name]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>division_name</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>division_link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[division_link]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>division_link</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sport_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[sport_id]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>sport_id</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sport_link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sport_link]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>sport_link</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sport_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sport_name]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>sport_name</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shortname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shortname]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>shortname</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>parentorgname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[parentorgname]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>parentorgname</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>parentorgid</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[parentorgid]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>parentorgid</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>franchisename</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[franchisename]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>franchisename</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clubname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[clubname]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>clubname</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>active</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[active (teams)]</local-name>
+            <parent-name>[teams]</parent-name>
+            <remote-alias>active</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[teams_F63E01B5141E463B852BEC6A710EBE5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='locations' datatype='table' name='[__tableau_internal_object_id__].[locations_467367B3325A40A7ABFDC566EEFDCB8C]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='teams' datatype='table' name='[__tableau_internal_object_id__].[teams_F63E01B5141E463B852BEC6A710EBE5E]' role='measure' type='quantitative' />
+      <column caption='Abbreviation' datatype='string' name='[abbreviation]' role='dimension' type='nominal' />
+      <column caption='Active (Teams)' datatype='boolean' name='[active (teams)]' role='dimension' type='nominal' />
+      <column caption='Active' datatype='boolean' name='[active]' role='dimension' type='nominal' />
+      <column caption='All Star Status' datatype='boolean' name='[all_star_status]' role='dimension' type='nominal' />
+      <column caption='Clubname' datatype='string' name='[clubname]' role='dimension' type='nominal' />
+      <column caption='Division Id' datatype='integer' name='[division_id]' role='dimension' type='ordinal' />
+      <column caption='Division Link' datatype='string' name='[division_link]' role='dimension' type='nominal' />
+      <column caption='Division Name' datatype='string' name='[division_name]' role='dimension' type='nominal' />
+      <column caption='Fieldinfo Capacity' datatype='integer' name='[fieldinfo_capacity]' role='measure' type='quantitative' />
+      <column caption='Fieldinfo Center' datatype='integer' name='[fieldinfo_center]' role='measure' type='quantitative' />
+      <column caption='Fieldinfo Left' datatype='integer' name='[fieldinfo_left]' role='measure' type='quantitative' />
+      <column caption='Fieldinfo Leftcenter' datatype='integer' name='[fieldinfo_leftcenter]' role='measure' type='quantitative' />
+      <column caption='Fieldinfo Leftline' datatype='integer' name='[fieldinfo_leftline]' role='measure' type='quantitative' />
+      <column caption='Fieldinfo Right' datatype='integer' name='[fieldinfo_right]' role='measure' type='quantitative' />
+      <column caption='Fieldinfo Rightcenter' datatype='integer' name='[fieldinfo_rightcenter]' role='measure' type='quantitative' />
+      <column caption='Fieldinfo Rightline' datatype='integer' name='[fieldinfo_rightline]' role='measure' type='quantitative' />
+      <column caption='Fieldinfo Rooftype' datatype='string' name='[fieldinfo_rooftype]' role='dimension' type='nominal' />
+      <column caption='Fieldinfo Turftype' datatype='string' name='[fieldinfo_turftype]' role='dimension' type='nominal' />
+      <column caption='Filecode' datatype='string' name='[filecode]' role='dimension' type='nominal' />
+      <column caption='Firstyearofplay' datatype='string' name='[firstyearofplay]' role='dimension' type='nominal' />
+      <column caption='Franchisename' datatype='string' name='[franchisename]' role='dimension' type='nominal' />
+      <column caption='Id (Teams)' datatype='integer' name='[id (teams)]' role='dimension' type='ordinal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='League Id' datatype='integer' name='[league_id]' role='dimension' type='ordinal' />
+      <column caption='League Link' datatype='string' name='[league_link]' role='dimension' type='nominal' />
+      <column caption='League Name' datatype='string' name='[league_name]' role='dimension' type='nominal' />
+      <column caption='Link (Teams)' datatype='string' name='[link (teams)]' role='dimension' type='nominal' />
+      <column caption='Link' datatype='string' name='[link]' role='dimension' type='nominal' />
+      <column caption='Location Address1' datatype='string' name='[location_address1]' role='dimension' type='nominal' />
+      <column caption='Location Azimuthangle' datatype='real' name='[location_azimuthangle]' role='measure' type='quantitative' />
+      <column caption='Location City' datatype='string' name='[location_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Location Country' datatype='string' name='[location_country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='Avg' caption='Location Defaultcoordinates Latitude' datatype='real' name='[location_defaultcoordinates_latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Location Defaultcoordinates Longitude' datatype='real' name='[location_defaultcoordinates_longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Location Elevation' datatype='integer' name='[location_elevation]' role='measure' type='quantitative' />
+      <column caption='Location Phone' datatype='string' name='[location_phone]' role='dimension' type='nominal' />
+      <column caption='Location Postalcode' datatype='string' name='[location_postalcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column caption='Location State' datatype='string' name='[location_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Location Stateabbrev' datatype='string' name='[location_stateabbrev]' role='dimension' type='nominal' />
+      <column caption='Locationname' datatype='string' name='[locationname]' role='dimension' type='nominal' />
+      <column caption='Name (Teams)' datatype='string' name='[name (teams)]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Parentorgid' datatype='integer' name='[parentorgid]' role='measure' type='quantitative' />
+      <column caption='Parentorgname' datatype='string' name='[parentorgname]' role='dimension' type='nominal' />
+      <column caption='Season (Teams)' datatype='integer' name='[season (teams)]' role='measure' type='quantitative' />
+      <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
+      <column caption='Shortname' datatype='string' name='[shortname]' role='dimension' type='nominal' />
+      <column caption='Sport Id' datatype='integer' name='[sport_id]' role='dimension' type='ordinal' />
+      <column caption='Sport Link' datatype='string' name='[sport_link]' role='dimension' type='nominal' />
+      <column caption='Sport Name' datatype='string' name='[sport_name]' role='dimension' type='nominal' />
+      <column caption='Teamcode' datatype='string' name='[teamcode]' role='dimension' type='nominal' />
+      <column caption='Teamname' datatype='string' name='[teamname]' role='dimension' type='nominal' />
+      <column caption='Timezone Id' datatype='string' name='[timezone_id]' role='dimension' type='nominal' />
+      <column caption='Timezone Offset' datatype='integer' name='[timezone_offset]' role='measure' type='quantitative' />
+      <column caption='Timezone Offsetatgametime' datatype='integer' name='[timezone_offsetatgametime]' role='measure' type='quantitative' />
+      <column caption='Timezone Tz' datatype='string' name='[timezone_tz]' role='dimension' type='nominal' />
+      <column caption='Venue Active' datatype='boolean' name='[venue_active]' role='dimension' type='nominal' />
+      <column caption='Venue Id' datatype='integer' name='[venue_id]' role='dimension' type='ordinal' />
+      <column caption='Venue Link' datatype='string' name='[venue_link]' role='dimension' type='nominal' />
+      <column caption='Venue Name' datatype='string' name='[venue_name]' role='dimension' type='nominal' />
+      <column caption='Venue Season' datatype='string' name='[venue_season]' role='dimension' type='nominal' />
+      <column-instance column='[parentorgname]' derivation='None' name='[none:parentorgname:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:parentorgname:nk]' type='palette'>
+            <map to='#000000'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#002b5c'>
+              <bucket>&quot;Minnesota Twins&quot;</bucket>
+            </map>
+            <map to='#003278'>
+              <bucket>&quot;Texas Rangers&quot;</bucket>
+            </map>
+            <map to='#003831'>
+              <bucket>&quot;Athletics&quot;</bucket>
+            </map>
+            <map to='#00385d'>
+              <bucket>&quot;Cleveland Guardians&quot;</bucket>
+            </map>
+            <map to='#005a9c'>
+              <bucket>&quot;Los Angeles Dodgers&quot;</bucket>
+            </map>
+            <map to='#005c5c'>
+              <bucket>&quot;Seattle Mariners&quot;</bucket>
+            </map>
+            <map to='#006ba6'>
+              <bucket>&quot;Toronto Blue Jays&quot;</bucket>
+            </map>
+            <map to='#00a3e0'>
+              <bucket>&quot;Miami Marlins&quot;</bucket>
+            </map>
+            <map to='#0c2340'>
+              <bucket>&quot;New York Yankees&quot;</bucket>
+            </map>
+            <map to='#0e3386'>
+              <bucket>&quot;Chicago Cubs&quot;</bucket>
+            </map>
+            <map to='#27251f'>
+              <bucket>&quot;Chicago White Sox&quot;</bucket>
+            </map>
+            <map to='#2f241d'>
+              <bucket>&quot;San Diego Padres&quot;</bucket>
+            </map>
+            <map to='#333366'>
+              <bucket>&quot;Colorado Rockies&quot;</bucket>
+            </map>
+            <map to='#8fbce6'>
+              <bucket>&quot;Tampa Bay Rays&quot;</bucket>
+            </map>
+            <map to='#a71930'>
+              <bucket>&quot;Arizona Diamondbacks&quot;</bucket>
+            </map>
+            <map to='#ab0003'>
+              <bucket>&quot;Washington Nationals&quot;</bucket>
+            </map>
+            <map to='#ba0021'>
+              <bucket>&quot;Los Angeles Angels&quot;</bucket>
+            </map>
+            <map to='#bd3039'>
+              <bucket>&quot;Boston Red Sox&quot;</bucket>
+            </map>
+            <map to='#bd9b60'>
+              <bucket>&quot;Kansas City Royals&quot;</bucket>
+            </map>
+            <map to='#c41e3a'>
+              <bucket>&quot;St. Louis Cardinals&quot;</bucket>
+            </map>
+            <map to='#c6011f'>
+              <bucket>&quot;Cincinnati Reds&quot;</bucket>
+            </map>
+            <map to='#ce1141'>
+              <bucket>&quot;Atlanta Braves&quot;</bucket>
+            </map>
+            <map to='#df4601'>
+              <bucket>&quot;Baltimore Orioles&quot;</bucket>
+            </map>
+            <map to='#e81828'>
+              <bucket>&quot;Philadelphia Phillies&quot;</bucket>
+            </map>
+            <map to='#eb6e1f'>
+              <bucket>&quot;Houston Astros&quot;</bucket>
+            </map>
+            <map to='#fa4616'>
+              <bucket>&quot;Detroit Tigers&quot;</bucket>
+            </map>
+            <map to='#fd5a1e'>
+              <bucket>&quot;San Francisco Giants&quot;</bucket>
+            </map>
+            <map to='#fdb827'>
+              <bucket>&quot;Pittsburgh Pirates&quot;</bucket>
+            </map>
+            <map to='#ff5910'>
+              <bucket>&quot;New York Mets&quot;</bucket>
+            </map>
+            <map to='#ffaaff'>
+              <bucket>&quot;Office of the Commissioner&quot;</bucket>
+            </map>
+            <map to='#ffc52f'>
+              <bucket>&quot;Milwaukee Brewers&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='locations' id='locations_467367B3325A40A7ABFDC566EEFDCB8C'>
+            <properties context=''>
+              <relation connection='postgres.1egdpgw1gvsqh218filks08z673y' name='locations' table='[public].[locations]' type='table' />
+            </properties>
+          </object>
+          <object caption='teams' id='teams_F63E01B5141E463B852BEC6A710EBE5E'>
+            <properties context=''>
+              <relation connection='postgres.1egdpgw1gvsqh218filks08z673y' name='teams' table='[public].[teams]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[id]' />
+              <expression op='[venue_id]' />
+            </expression>
+            <first-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='locations_467367B3325A40A7ABFDC566EEFDCB8C' unique-key='true' />
+            <second-end-point object-id='teams_F63E01B5141E463B852BEC6A710EBE5E' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_D342EED6CE01475485A5EE563454CCA6]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='MLB &amp; MiLB Team Locations, Grouped by Parent Organization' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Parentorgname' />
+        <param name='target' value='MLB &amp; MiLB Team Locations, Grouped by Parent Organization' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='MLB &amp; MiLB Team Locations, Grouped by Parent Organization'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>MLB &amp; MiLB Team Locations, Grouped by Parent Organization</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='investigations' name='federated.0cjulmd1d32s52173dpp21sbcyl1' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0cjulmd1d32s52173dpp21sbcyl1'>
+            <column-instance column='[locationname]' derivation='Attribute' name='[attr:locationname:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='Attribute' name='[attr:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sport_name]' derivation='Attribute' name='[attr:sport_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[teamname]' derivation='Attribute' name='[attr:teamname:nk]' pivot='key' type='nominal' />
+            <column aggregation='Avg' caption='Location Defaultcoordinates Latitude' datatype='real' name='[location_defaultcoordinates_latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Location Defaultcoordinates Longitude' datatype='real' name='[location_defaultcoordinates_longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Locationname' datatype='string' name='[locationname]' role='dimension' type='nominal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[location_defaultcoordinates_latitude]' derivation='None' name='[none:location_defaultcoordinates_latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[location_defaultcoordinates_longitude]' derivation='None' name='[none:location_defaultcoordinates_longitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[parentorgname]' derivation='None' name='[none:parentorgname:nk]' pivot='key' type='nominal' />
+            <column caption='Parentorgname' datatype='string' name='[parentorgname]' role='dimension' type='nominal' />
+            <column caption='Sport Name' datatype='string' name='[sport_name]' role='dimension' type='nominal' />
+            <column caption='Teamname' datatype='string' name='[teamname]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0cjulmd1d32s52173dpp21sbcyl1].[Longitude (generated)]' field-type='quantitative' max='-8494005.7938132919' min='-14587961.564195465' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0cjulmd1d32s52173dpp21sbcyl1].[Latitude (generated)]' field-type='quantitative' max='7259718.5931945639' min='3299696.8536438323' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.0cjulmd1d32s52173dpp21sbcyl1].[none:location_defaultcoordinates_longitude:qk]' value='false' />
+            <format attr='in-tooltip' field='[federated.0cjulmd1d32s52173dpp21sbcyl1].[none:location_defaultcoordinates_latitude:qk]' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0cjulmd1d32s52173dpp21sbcyl1].[none:parentorgname:nk]' value='Parent Organization'>
+              <formatted-text>
+                <run>Parent Organization</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cjulmd1d32s52173dpp21sbcyl1].[none:parentorgname:nk]' />
+              <lod column='[federated.0cjulmd1d32s52173dpp21sbcyl1].[none:location_defaultcoordinates_latitude:qk]' />
+              <lod column='[federated.0cjulmd1d32s52173dpp21sbcyl1].[none:location_defaultcoordinates_longitude:qk]' />
+              <text column='[federated.0cjulmd1d32s52173dpp21sbcyl1].[attr:locationname:nk]' />
+              <tooltip column='[federated.0cjulmd1d32s52173dpp21sbcyl1].[attr:teamname:nk]' />
+              <tooltip column='[federated.0cjulmd1d32s52173dpp21sbcyl1].[attr:name:nk]' />
+              <tooltip column='[federated.0cjulmd1d32s52173dpp21sbcyl1].[attr:sport_name:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Parent Organization:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0cjulmd1d32s52173dpp21sbcyl1].[none:parentorgname:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Team Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0cjulmd1d32s52173dpp21sbcyl1].[attr:locationname:nk]> <[federated.0cjulmd1d32s52173dpp21sbcyl1].[attr:teamname:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0cjulmd1d32s52173dpp21sbcyl1].[attr:name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>League:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0cjulmd1d32s52173dpp21sbcyl1].[attr:sport_name:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cjulmd1d32s52173dpp21sbcyl1].[Latitude (generated)]</rows>
+        <cols>[federated.0cjulmd1d32s52173dpp21sbcyl1].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{570F40BC-63C3-4D28-BD9B-076D6CE100F1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='MLB &amp; MiLB Team Locations, Grouped by Parent Organization'>
+      <cards>
+        <edge name='left'>
+          <strip size='283'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card pane-specification-id='2' param='[federated.0cjulmd1d32s52173dpp21sbcyl1].[none:parentorgname:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{302773E4-5B1D-470C-B735-5515FBDC475C}' />
+    </window>
+  </windows>
+</workbook>
