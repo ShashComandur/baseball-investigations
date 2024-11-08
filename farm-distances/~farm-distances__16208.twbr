@@ -1277,8 +1277,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.0cjulmd1d32s52173dpp21sbcyl1].[Longitude (generated)]' field-type='quantitative' max='-8494005.7938132919' min='-14587961.564195465' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.0cjulmd1d32s52173dpp21sbcyl1].[Latitude (generated)]' field-type='quantitative' max='7259718.5931945639' min='3299696.8536438323' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0cjulmd1d32s52173dpp21sbcyl1].[Longitude (generated)]' field-type='quantitative' max='-6974079.9726158846' min='-14497482.032712566' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0cjulmd1d32s52173dpp21sbcyl1].[Latitude (generated)]' field-type='quantitative' max='7242486.4157099053' min='2353570.7694620797' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='worksheet'>
             <format attr='in-tooltip' field='[federated.0cjulmd1d32s52173dpp21sbcyl1].[none:location_defaultcoordinates_longitude:qk]' value='false' />
