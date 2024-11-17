@@ -1,0 +1,281 @@
+source,destination,weight
+D.Law,Nationals Park,37
+R.Garcia,Nationals Park,35
+J.Barnes,Nationals Park,34
+K.Finnegan,Nationals Park,33
+T.Rainey,Nationals Park,29
+D.Floro,Nationals Park,24
+J.Weems,Nationals Park,22
+M.Gore,Nationals Park,19
+J.Ferrer,Nationals Park,19
+H.Harvey,Nationals Park,19
+P.Corbin,Nationals Park,16
+M.Parker,Nationals Park,15
+E.Salazar,Nationals Park,13
+J.Irvin,Nationals Park,13
+D.Herz,Nationals Park,12
+J.La Sorsa,Nationals Park,9
+M.Barnes,Nationals Park,7
+J.Adon,Nationals Park,5
+T.Williams,Nationals Park,5
+D.Law,LoanDepot Park,4
+R.Garcia,Truist Park,4
+J.Barnes,Citizens Bank Park,4
+K.Finnegan,LoanDepot Park,3
+J.Weems,Oakland Coliseum ,3
+J.Barnes,Citi Field,3
+J.Barnes,Truist Park,3
+H.Harvey,Truist Park,3
+K.Finnegan,Citizens Bank Park,3
+K.Finnegan,Truist Park,3
+R.Garcia,Citizens Bank Park,3
+R.Garcia,Camden Yards,2
+Z.Brzykcy,Nationals Park,2
+H.Harvey,Great American Ballpark,2
+J.Ferrer,LoanDepot Park,2
+K.Finnegan,Great American Ballpark,2
+Z.Brzykcy,Citi Field,2
+K.Finnegan,Dodger Stadium,2
+E.Salazar,Truist Park,2
+H.Harvey,Dodger Stadium,2
+O.Ribalta,Nationals Park,2
+J.La Sorsa,Wrigley Field,2
+J.Ferrer,Truist Park,2
+D.Law,Oracle Park,2
+D.Floro,Oracle Park,2
+H.Harvey,LoanDepot Park,2
+M.Barnes,LoanDepot Park,2
+D.Floro,LoanDepot Park,2
+J.Barnes,LoanDepot Park,2
+R.Garcia,Busch Stadium,2
+D.Floro,Busch Stadium,2
+D.Law,Busch Stadium,2
+I.Vargas,Nationals Park,2
+D.Law,Chase Field,2
+J.Barnes,Chase Field,2
+R.Garcia,Chase Field,2
+D.Law,Oakland Coliseum ,2
+H.Harvey,Oakland Coliseum ,2
+K.Finnegan,Oakland Coliseum ,2
+R.Garcia,Oakland Coliseum ,2
+D.Floro,Citi Field,2
+K.Finnegan,Coors Field,2
+D.Law,Petco Park,2
+R.Garcia,Comerica Park,2
+R.Garcia,Coors Field,2
+K.Finnegan,Comerica Park,2
+D.Law,Citi Field,2
+D.Law,American Family Field,2
+K.Finnegan,American Family Field,2
+D.Law,Fenway Park,2
+J.Barnes,Globe Life Field,2
+J.Weems,Globe Life Field,2
+P.Corbin,LoanDepot Park,2
+T.Rainey,Petco Park,2
+J.Weems,Petco Park,2
+J.Irvin,Citi Field,2
+J.Weems,Tropicana Field,2
+M.Gore,Truist Park,2
+D.Floro,Truist Park,2
+R.Garcia,Progressive Field,2
+R.Garcia,Fenway Park,2
+R.Garcia,Guaranteed Rate Field,2
+D.Floro,Fenway Park,2
+D.Law,Guaranteed Rate Field,2
+D.Law,Comerica Park,2
+D.Floro,Coors Field,2
+D.Floro,Comerica Park,2
+H.Harvey,Comerica Park,2
+M.Gore,Citizens Bank Park,2
+D.Law,Citizens Bank Park,2
+T.Rainey,Citizens Bank Park,2
+J.Irvin,Truist Park,2
+D.Law,Truist Park,2
+J.Barnes,PNC Park,2
+D.Law,PNC Park,2
+K.Finnegan,PNC Park,2
+J.Irvin,Citizens Bank Park,2
+J.Weems,Citizens Bank Park,2
+E.Salazar,PNC Park,2
+T.Rainey,PNC Park,2
+Z.Brzykcy,PNC Park,2
+R.Garcia,PNC Park,2
+T.Rainey,Wrigley Field,2
+E.Salazar,Wrigley Field,2
+J.Ferrer,Wrigley Field,2
+R.Garcia,Wrigley Field,2
+J.La Sorsa,Citi Field,2
+D.Floro,Great American Ballpark,2
+R.Garcia,Great American Ballpark,2
+J.Gray,Great American Ballpark,1
+M.Barnes,Great American Ballpark,1
+T.Rainey,Great American Ballpark,1
+P.Corbin,Great American Ballpark,1
+T.Rainey,Citi Field,1
+D.Herz,Citi Field,1
+P.Corbin,Wrigley Field,1
+D.Law,Wrigley Field,1
+T.Williams,Wrigley Field,1
+J.Gray,Nationals Park,1
+J.La Sorsa,PNC Park,1
+D.Herz,PNC Park,1
+M.Parker,PNC Park,1
+D.Floro,Guaranteed Rate Field,1
+D.Floro,Citizens Bank Park,1
+H.Harvey,Citizens Bank Park,1
+T.Williams,Citizens Bank Park,1
+M.Parker,Truist Park,1
+J.Weems,Truist Park,1
+T.Williams,Truist Park,1
+P.Corbin,Progressive Field,1
+J.Barnes,Progressive Field,1
+J.Weems,Progressive Field,1
+M.Parker,Progressive Field,1
+D.Floro,Progressive Field,1
+D.Law,Progressive Field,1
+J.Irvin,Progressive Field,1
+H.Harvey,Progressive Field,1
+H.Harvey,Fenway Park,1
+J.Barnes,Fenway Park,1
+J.Irvin,Fenway Park,1
+M.Gore,Fenway Park,1
+T.Williams,Guaranteed Rate Field,1
+H.Harvey,Guaranteed Rate Field,1
+K.Finnegan,Guaranteed Rate Field,1
+M.Parker,Guaranteed Rate Field,1
+J.Weems,Guaranteed Rate Field,1
+J.Barnes,Guaranteed Rate Field,1
+J.Rutledge,Guaranteed Rate Field,1
+P.Corbin,Guaranteed Rate Field,1
+K.Finnegan,Progressive Field,1
+M.Parker,Comerica Park,1
+J.Irvin,Comerica Park,1
+P.Corbin,Comerica Park,1
+J.Barnes,Comerica Park,1
+T.Rainey,Comerica Park,1
+D.Herz,Coors Field,1
+D.Law,Coors Field,1
+T.Rainey,Coors Field,1
+M.Parker,Coors Field,1
+J.Barnes,Coors Field,1
+H.Harvey,Coors Field,1
+J.Irvin,Coors Field,1
+P.Corbin,Petco Park,1
+R.Garcia,Petco Park,1
+H.Harvey,Petco Park,1
+M.Gore,Petco Park,1
+D.Floro,Petco Park,1
+D.Herz,Petco Park,1
+J.Barnes,Petco Park,1
+J.Weems,LoanDepot Park,1
+J.Irvin,LoanDepot Park,1
+M.Gore,Globe Life Field,1
+T.Rainey,Globe Life Field,1
+T.Williams,Globe Life Field,1
+D.Law,Globe Life Field,1
+D.Floro,Globe Life Field,1
+H.Harvey,Globe Life Field,1
+K.Finnegan,Globe Life Field,1
+M.Parker,Globe Life Field,1
+M.Barnes,Globe Life Field,1
+P.Corbin,Fenway Park,1
+M.Parker,Tropicana Field,1
+J.Barnes,Tropicana Field,1
+D.Floro,Tropicana Field,1
+J.Irvin,Tropicana Field,1
+D.Law,Tropicana Field,1
+H.Harvey,Tropicana Field,1
+K.Finnegan,Tropicana Field,1
+P.Corbin,Tropicana Field,1
+T.Rainey,Tropicana Field,1
+J.Weems,Citi Field,1
+P.Corbin,Citi Field,1
+M.Gore,Citi Field,1
+H.Harvey,Citi Field,1
+R.Garcia,Citi Field,1
+K.Finnegan,Citi Field,1
+J.Rutledge,American Family Field,1
+R.Garcia,American Family Field,1
+H.Harvey,American Family Field,1
+M.Parker,American Family Field,1
+J.Weems,American Family Field,1
+J.Barnes,American Family Field,1
+D.Floro,American Family Field,1
+J.Irvin,American Family Field,1
+E.Salazar,American Family Field,1
+P.Corbin,Dodger Stadium,1
+D.Law,Dodger Stadium,1
+T.Rainey,Dodger Stadium,1
+J.Irvin,Dodger Stadium,1
+R.Garcia,Dodger Stadium,1
+T.Williams,LoanDepot Park,1
+M.Parker,LoanDepot Park,1
+T.Rainey,LoanDepot Park,1
+T.Rainey,American Family Field,1
+A.Willingham,American Family Field,1
+M.Gore,Busch Stadium,1
+J.Barnes,Busch Stadium,1
+K.Finnegan,Busch Stadium,1
+J.Irvin,Busch Stadium,1
+J.Ferrer,Busch Stadium,1
+E.Salazar,Busch Stadium,1
+T.Rainey,Busch Stadium,1
+D.Herz,Busch Stadium,1
+M.Parker,Chase Field,1
+J.Ferrer,Chase Field,1
+K.Finnegan,Chase Field,1
+P.Corbin,Chase Field,1
+E.Salazar,Chase Field,1
+J.Adon,Chase Field,1
+T.Rainey,Chase Field,1
+M.Gore,Chase Field,1
+J.Irvin,Camden Yards,1
+J.Ferrer,Camden Yards,1
+O.Ribalta,Camden Yards,1
+D.Law,Camden Yards,1
+T.Rainey,Oracle Park,1
+J.Irvin,Oakland Coliseum ,1
+M.Gore,Oakland Coliseum ,1
+T.Williams,Oakland Coliseum ,1
+D.Floro,Oakland Coliseum ,1
+M.Barnes,Oakland Coliseum ,1
+M.Parker,Dodger Stadium,1
+M.Barnes,Dodger Stadium,1
+D.Floro,Dodger Stadium,1
+D.Herz,Camden Yards,1
+J.Barnes,Camden Yards,1
+E.Salazar,Camden Yards,1
+M.Parker,Citizens Bank Park,1
+E.Salazar,Citizens Bank Park,1
+O.Ribalta,Citizens Bank Park,1
+P.Corbin,Citizens Bank Park,1
+J.La Sorsa,Citizens Bank Park,1
+J.Adon,Citizens Bank Park,1
+J.Ferrer,Citizens Bank Park,1
+T.Rainey,Truist Park,1
+J.La Sorsa,Truist Park,1
+D.Herz,Truist Park,1
+M.Gore,Wrigley Field,1
+K.Finnegan,Wrigley Field,1
+J.Irvin,Wrigley Field,1
+J.Barnes,Wrigley Field,1
+J.Weems,Great American Ballpark,1
+T.Williams,Oracle Park,1
+M.Barnes,Oracle Park,1
+J.Adon,Oracle Park,1
+R.Garcia,Oracle Park,1
+J.Weems,Oracle Park,1
+H.Harvey,Oracle Park,1
+K.Finnegan,Oracle Park,1
+P.Corbin,Oracle Park,1
+R.Garcia,LoanDepot Park,1
+M.Gore,LoanDepot Park,1
+J.Irvin,PNC Park,1
+D.Law,Great American Ballpark,1
+J.Irvin,Great American Ballpark,1
+J.Ferrer,PNC Park,1
+P.Corbin,PNC Park,1
+J.Ferrer,Citi Field,1
+M.Parker,Citi Field,1
+E.Salazar,Citi Field,1
+J.Rutledge,Nationals Park,1

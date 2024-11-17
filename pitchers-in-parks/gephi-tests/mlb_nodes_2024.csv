@@ -1,0 +1,872 @@
+id,name,team,home_venue,size
+Chase Field,Chase Field,Arizona Diamondbacks,Chase Field,30
+Truist Park,Truist Park,Atlanta Braves,Truist Park,30
+Camden Yards,Camden Yards,Baltimore Orioles,Camden Yards,30
+Fenway Park,Fenway Park,Boston Red Sox,Fenway Park,30
+Wrigley Field,Wrigley Field,Chicago Cubs,Wrigley Field,30
+Guaranteed Rate Field,Guaranteed Rate Field,Chicago White Sox,Guaranteed Rate Field,30
+Great American Ballpark,Great American Ballpark,Cincinnati Reds,Great American Ballpark,30
+Progressive Field,Progressive Field,Cleveland Indians,Progressive Field,30
+Coors Field,Coors Field,Colorado Rockies,Coors Field,30
+Comerica Park,Comerica Park,Detroit Tigers,Comerica Park,30
+Minute Maid Park,Minute Maid Park,Houston Astros,Minute Maid Park,30
+Kauffman Stadium,Kauffman Stadium,Kansas City Royals,Kauffman Stadium,30
+Angel Stadium,Angel Stadium,Los Angeles Angels Of Anaheim,Angel Stadium,30
+Dodger Stadium,Dodger Stadium,Los Angeles Dodgers,Dodger Stadium,30
+LoanDepot Park,LoanDepot Park,Miami Marlins,LoanDepot Park,30
+American Family Field,American Family Field,Milwaukee Brewers,American Family Field,30
+Target Field,Target Field,Minnesota Twins,Target Field,30
+Citi Field,Citi Field,New York Mets,Citi Field,30
+Yankee Stadium,Yankee Stadium,New York Yankees,Yankee Stadium,30
+Oakland Coliseum ,Oakland Coliseum ,Oakland Athletics,Oakland Coliseum ,30
+Citizens Bank Park,Citizens Bank Park,Philadelphia Phillies,Citizens Bank Park,30
+PNC Park,PNC Park,Pittsburgh Pirates,PNC Park,30
+Petco Park,Petco Park,San Diego Padres,Petco Park,30
+Oracle Park,Oracle Park,San Francisco Giants,Oracle Park,30
+T-Mobile Park,T-Mobile Park,Seattle Mariners,T-Mobile Park,30
+Busch Stadium,Busch Stadium,St Louis Cardinals,Busch Stadium,30
+Tropicana Field,Tropicana Field,Tampa Bay Rays,Tropicana Field,30
+Globe Life Field,Globe Life Field,Texas Rangers,Globe Life Field,30
+Rogers Centre,Rogers Centre,Toronto Blue Jays,Rogers Centre,30
+Nationals Park,Nationals Park,Washington Nationals,Nationals Park,30
+S.McGough,S.McGough,ARI,Chase Field,10
+M.Bowman,M.Bowman,ARI,Chase Field,10
+M.Kelly,M.Kelly,ARI,Chase Field,10
+E.Rodríguez,E.Rodríguez,ARI,Chase Field,10
+P.Sewald,P.Sewald,ARI,Chase Field,10
+T.Barnhart,T.Barnhart,ARI,Chase Field,10
+R.Thompson,R.Thompson,ARI,Chase Field,10
+K.Ginkel,K.Ginkel,ARI,Chase Field,10
+L.Allen,L.Allen,ARI,Chase Field,10
+K.Nelson,K.Nelson,ARI,Chase Field,10
+M.Castro,M.Castro,ARI,Chase Field,10
+S.Cecconi,S.Cecconi,ARI,Chase Field,10
+B.Jarvis,B.Jarvis,ARI,Chase Field,10
+P.Smith,P.Smith,ARI,Chase Field,10
+T.Henry,T.Henry,ARI,Chase Field,10
+B.Walston,B.Walston,ARI,Chase Field,10
+J.Martinez,J.Martinez,ARI,Chase Field,10
+B.Hughes,B.Hughes,ARI,Chase Field,10
+R.Nelson,R.Nelson,ARI,Chase Field,10
+C.Mena,C.Mena,ARI,Chase Field,10
+T.Vieira,T.Vieira,ARI,Chase Field,10
+H.Castellanos,H.Castellanos,ARI,Chase Field,10
+D.Floro,D.Floro,ARI,Chase Field,10
+A.Puk,A.Puk,ARI,Chase Field,10
+Y.Diaz,Y.Diaz,ARI,Chase Field,10
+A.Saalfrank,A.Saalfrank,ARI,Chase Field,10
+J.Mantiply,J.Mantiply,ARI,Chase Field,10
+J.Jacques,J.Jacques,ARI,Chase Field,10
+J.Montgomery,J.Montgomery,ARI,Chase Field,10
+Z.Gallen,Z.Gallen,ARI,Chase Field,10
+B.Pfaadt,B.Pfaadt,ARI,Chase Field,10
+L.Frías,L.Frías,ARI,Chase Field,10
+L.Williams,L.Williams,ATL,Truist Park,10
+A.Winans,A.Winans,ATL,Truist Park,10
+H.Waldrep,H.Waldrep,ATL,Truist Park,10
+D.Dodd,D.Dodd,ATL,Truist Park,10
+T.Matzek,T.Matzek,ATL,Truist Park,10
+D.Vines,D.Vines,ATL,Truist Park,10
+S.Strider,S.Strider,ATL,Truist Park,10
+P.Johnson,P.Johnson,ATL,Truist Park,10
+L.Guillorme,L.Guillorme,ATL,Truist Park,10
+P.Dunshee,P.Dunshee,ATL,Truist Park,10
+A.Minter,A.Minter,ATL,Truist Park,10
+A.Bummer,A.Bummer,ATL,Truist Park,10
+A.Smith-Shawver,A.Smith-Shawver,ATL,Truist Park,10
+B.Elder,B.Elder,ATL,Truist Park,10
+J.Herget,J.Herget,ATL,Truist Park,10
+J.Chavez,J.Chavez,ATL,Truist Park,10
+J.Jiménez,J.Jiménez,ATL,Truist Park,10
+R.López,R.López,ATL,Truist Park,10
+R.Kerr,R.Kerr,ATL,Truist Park,10
+G.Holmes,G.Holmes,ATL,Truist Park,10
+M.Fried,M.Fried,ATL,Truist Park,10
+C.Sale,C.Sale,ATL,Truist Park,10
+J.Stephens,J.Stephens,ATL,Truist Park,10
+L.Jackson,L.Jackson,ATL,Truist Park,10
+J.Brebbia,J.Brebbia,ATL,Truist Park,10
+S.Schwellenbach,S.Schwellenbach,ATL,Truist Park,10
+D.Lee,D.Lee,ATL,Truist Park,10
+C.Morton,C.Morton,ATL,Truist Park,10
+D.Hernández,D.Hernández,ATL,Truist Park,10
+R.Iglesias,R.Iglesias,ATL,Truist Park,10
+V.Nittoli,V.Nittoli,BAL,Camden Yards,10
+J.McCann,J.McCann,BAL,Camden Yards,10
+D.Tate,D.Tate,BAL,Camden Yards,10
+J.Webb,J.Webb,BAL,Camden Yards,10
+G.Rodriguez,G.Rodriguez,BAL,Camden Yards,10
+M.Krook,M.Krook,BAL,Camden Yards,10
+C.McDermott,C.McDermott,BAL,Camden Yards,10
+J.Means,J.Means,BAL,Camden Yards,10
+Z.Eflin,Z.Eflin,BAL,Camden Yards,10
+C.Kimbrel,C.Kimbrel,BAL,Camden Yards,10
+K.Akin,K.Akin,BAL,Camden Yards,10
+C.Pérez,C.Pérez,BAL,Camden Yards,10
+M.Baumann,M.Baumann,BAL,Camden Yards,10
+Y.Cano,Y.Cano,BAL,Camden Yards,10
+D.Coulombe,D.Coulombe,BAL,Camden Yards,10
+S.Domínguez,S.Domínguez,BAL,Camden Yards,10
+J.Heasley,J.Heasley,BAL,Camden Yards,10
+N.Vespi,N.Vespi,BAL,Camden Yards,10
+C.Irvin,C.Irvin,BAL,Camden Yards,10
+Y.Ramírez,Y.Ramírez,BAL,Camden Yards,10
+T.Wells,T.Wells,BAL,Camden Yards,10
+B.Smith,B.Smith,BAL,Camden Yards,10
+K.Bradish,K.Bradish,BAL,Camden Yards,10
+C.Selby,C.Selby,BAL,Camden Yards,10
+G.Soto,G.Soto,BAL,Camden Yards,10
+A.Suárez,A.Suárez,BAL,Camden Yards,10
+B.Baker,B.Baker,BAL,Camden Yards,10
+C.Povich,C.Povich,BAL,Camden Yards,10
+D.Kremer,D.Kremer,BAL,Camden Yards,10
+T.Davidson,T.Davidson,BAL,Camden Yards,10
+T.Rogers,T.Rogers,BAL,Camden Yards,10
+C.Burnes,C.Burnes,BAL,Camden Yards,10
+C.Shugart,C.Shugart,BOS,Fenway Park,10
+J.Rodríguez,J.Rodríguez,BOS,Fenway Park,10
+Q.Priester,Q.Priester,BOS,Fenway Park,10
+C.Anderson,C.Anderson,BOS,Fenway Park,10
+T.Houck,T.Houck,BOS,Fenway Park,10
+B.Keller,B.Keller,BOS,Fenway Park,10
+K.Jansen,K.Jansen,BOS,Fenway Park,10
+J.Slaten,J.Slaten,BOS,Fenway Park,10
+R.Fitts,R.Fitts,BOS,Fenway Park,10
+L.Sims,L.Sims,BOS,Fenway Park,10
+P.Reyes,P.Reyes,BOS,Fenway Park,10
+G.Whitlock,G.Whitlock,BOS,Fenway Park,10
+T.Wingenter,T.Wingenter,BOS,Fenway Park,10
+B.Bello,B.Bello,BOS,Fenway Park,10
+N.Pivetta,N.Pivetta,BOS,Fenway Park,10
+B.Horn,B.Horn,BOS,Fenway Park,10
+J.Paxton,J.Paxton,BOS,Fenway Park,10
+G.Weissert,G.Weissert,BOS,Fenway Park,10
+C.Martin,C.Martin,BOS,Fenway Park,10
+B.Bernardino,B.Bernardino,BOS,Fenway Park,10
+N.Uwasawa,N.Uwasawa,BOS,Fenway Park,10
+I.Campbell,I.Campbell,BOS,Fenway Park,10
+C.Booser,C.Booser,BOS,Fenway Park,10
+K.Crawford,K.Crawford,BOS,Fenway Park,10
+D.Smith,D.Smith,BOS,Fenway Park,10
+R.Hill,R.Hill,BOS,Fenway Park,10
+C.Criswell,C.Criswell,BOS,Fenway Park,10
+Z.Kelly,Z.Kelly,BOS,Fenway Park,10
+Z.Penrod,Z.Penrod,BOS,Fenway Park,10
+L.García,L.García,BOS,Fenway Park,10
+L.Guerrero,L.Guerrero,BOS,Fenway Park,10
+J.Winckowski,J.Winckowski,BOS,Fenway Park,10
+R.Lovelady,R.Lovelady,CHC,Wrigley Field,10
+L.Little,L.Little,CHC,Wrigley Field,10
+J.Wicks,J.Wicks,CHC,Wrigley Field,10
+D.Smyly,D.Smyly,CHC,Wrigley Field,10
+J.Tinoco,J.Tinoco,CHC,Wrigley Field,10
+D.Bote,D.Bote,CHC,Wrigley Field,10
+J.Cuas,J.Cuas,CHC,Wrigley Field,10
+P.Wisdom,P.Wisdom,CHC,Wrigley Field,10
+G.Hollowell,G.Hollowell,CHC,Wrigley Field,10
+J.Neely,J.Neely,CHC,Wrigley Field,10
+H.Bigge,H.Bigge,CHC,Wrigley Field,10
+J.Assad,J.Assad,CHC,Wrigley Field,10
+J.Steele,J.Steele,CHC,Wrigley Field,10
+Y.Almonte,Y.Almonte,CHC,Wrigley Field,10
+C.Brewer,C.Brewer,CHC,Wrigley Field,10
+D.Palencia,D.Palencia,CHC,Wrigley Field,10
+S.Armstrong,S.Armstrong,CHC,Wrigley Field,10
+M.Mervis,M.Mervis,CHC,Wrigley Field,10
+S.Imanaga,S.Imanaga,CHC,Wrigley Field,10
+E.Roberts,E.Roberts,CHC,Wrigley Field,10
+E.Paredes,E.Paredes,CHC,Wrigley Field,10
+J.Taillon,J.Taillon,CHC,Wrigley Field,10
+K.Hendricks,K.Hendricks,CHC,Wrigley Field,10
+J.López,J.López,CHC,Wrigley Field,10
+B.Brown,B.Brown,CHC,Wrigley Field,10
+T.Miller,T.Miller,CHC,Wrigley Field,10
+A.Alzolay,A.Alzolay,CHC,Wrigley Field,10
+K.Thompson,K.Thompson,CHC,Wrigley Field,10
+H.Wesneski,H.Wesneski,CHC,Wrigley Field,10
+P.Hodge,P.Hodge,CHC,Wrigley Field,10
+M.Leiter,M.Leiter,CHC,Wrigley Field,10
+C.Kilian,C.Kilian,CHC,Wrigley Field,10
+H.Neris,H.Neris,CHC,Wrigley Field,10
+N.Pearson,N.Pearson,CHC,Wrigley Field,10
+J.Merryweather,J.Merryweather,CHC,Wrigley Field,10
+M.Soroka,M.Soroka,CHW,Guaranteed Rate Field,10
+M.Clevinger,M.Clevinger,CHW,Guaranteed Rate Field,10
+J.Shuster,J.Shuster,CHW,Guaranteed Rate Field,10
+J.Cannon,J.Cannon,CHW,Guaranteed Rate Field,10
+J.Leasure,J.Leasure,CHW,Guaranteed Rate Field,10
+T.Hill,T.Hill,CHW,Guaranteed Rate Field,10
+B.Shaw,B.Shaw,CHW,Guaranteed Rate Field,10
+S.Wilson,S.Wilson,CHW,Guaranteed Rate Field,10
+T.Toussaint,T.Toussaint,CHW,Guaranteed Rate Field,10
+N.Nastrini,N.Nastrini,CHW,Guaranteed Rate Field,10
+K.Bush,K.Bush,CHW,Guaranteed Rate Field,10
+D.Mendick,D.Mendick,CHW,Guaranteed Rate Field,10
+E.Fedde,E.Fedde,CHW,Guaranteed Rate Field,10
+J.Woodford,J.Woodford,CHW,Guaranteed Rate Field,10
+S.Burke,S.Burke,CHW,Guaranteed Rate Field,10
+T.Banks,T.Banks,CHW,Guaranteed Rate Field,10
+M.Kopech,M.Kopech,CHW,Guaranteed Rate Field,10
+F.Ellard,F.Ellard,CHW,Guaranteed Rate Field,10
+M.Foster,M.Foster,CHW,Guaranteed Rate Field,10
+P.Berroa,P.Berroa,CHW,Guaranteed Rate Field,10
+G.Varland,G.Varland,CHW,Guaranteed Rate Field,10
+J.Eder,J.Eder,CHW,Guaranteed Rate Field,10
+C.Kuhl,C.Kuhl,CHW,Guaranteed Rate Field,10
+D.Leone,D.Leone,CHW,Guaranteed Rate Field,10
+E.De Los Santos,E.De Los Santos,CHW,Guaranteed Rate Field,10
+D.Thorpe,D.Thorpe,CHW,Guaranteed Rate Field,10
+D.Martin,D.Martin,CHW,Guaranteed Rate Field,10
+J.Iriarte,J.Iriarte,CHW,Guaranteed Rate Field,10
+C.Flexen,C.Flexen,CHW,Guaranteed Rate Field,10
+S.Peralta,S.Peralta,CHW,Guaranteed Rate Field,10
+J.Anderson,J.Anderson,CHW,Guaranteed Rate Field,10
+D.García,D.García,CHW,Guaranteed Rate Field,10
+G.Crochet,G.Crochet,CHW,Guaranteed Rate Field,10
+L.Richardson,L.Richardson,CIN,Great American Ballpark,10
+A.Díaz,A.Díaz,CIN,Great American Ballpark,10
+J.Aguiar,J.Aguiar,CIN,Great American Ballpark,10
+A.Busenitz,A.Busenitz,CIN,Great American Ballpark,10
+B.Leibrandt,B.Leibrandt,CIN,Great American Ballpark,10
+F.Cruz,F.Cruz,CIN,Great American Ballpark,10
+E.Pagán,E.Pagán,CIN,Great American Ballpark,10
+N.Martinez,N.Martinez,CIN,Great American Ballpark,10
+Y.Zulueta,Y.Zulueta,CIN,Great American Ballpark,10
+J.Junis,J.Junis,CIN,Great American Ballpark,10
+C.Spiers,C.Spiers,CIN,Great American Ballpark,10
+A.Abbott,A.Abbott,CIN,Great American Ballpark,10
+T.Santillan,T.Santillan,CIN,Great American Ballpark,10
+I.Gibaut,I.Gibaut,CIN,Great American Ballpark,10
+H.Greene,H.Greene,CIN,Great American Ballpark,10
+S.Moll,S.Moll,CIN,Great American Ballpark,10
+B.Farmer,B.Farmer,CIN,Great American Ballpark,10
+R.Lowder,R.Lowder,CIN,Great American Ballpark,10
+A.Young,A.Young,CIN,Great American Ballpark,10
+B.Williamson,B.Williamson,CIN,Great American Ballpark,10
+T.Antone,T.Antone,CIN,Great American Ballpark,10
+J.Wilson,J.Wilson,CIN,Great American Ballpark,10
+C.Legumina,C.Legumina,CIN,Great American Ballpark,10
+L.Maile,L.Maile,CIN,Great American Ballpark,10
+C.Kelly,C.Kelly,CIN,Great American Ballpark,10
+E.Kravetz,E.Kravetz,CIN,Great American Ballpark,10
+D.Buchanan,D.Buchanan,CIN,Great American Ballpark,10
+N.Lodolo,N.Lodolo,CIN,Great American Ballpark,10
+B.Suter,B.Suter,CIN,Great American Ballpark,10
+F.Montas,F.Montas,CIN,Great American Ballpark,10
+G.Ashcraft,G.Ashcraft,CIN,Great American Ballpark,10
+P.Avila,P.Avila,CLE,Progressive Field,10
+P.Strzelecki,P.Strzelecki,CLE,Progressive Field,10
+A.Hedges,A.Hedges,CLE,Progressive Field,10
+C.Smith,C.Smith,CLE,Progressive Field,10
+W.Parsons,W.Parsons,CLE,Progressive Field,10
+E.Morgan,E.Morgan,CLE,Progressive Field,10
+B.Lively,B.Lively,CLE,Progressive Field,10
+S.Howard,S.Howard,CLE,Progressive Field,10
+E.Clase,E.Clase,CLE,Progressive Field,10
+S.Bieber,S.Bieber,CLE,Progressive Field,10
+C.Gillispie,C.Gillispie,CLE,Progressive Field,10
+S.Barlow,S.Barlow,CLE,Progressive Field,10
+T.Bibee,T.Bibee,CLE,Progressive Field,10
+E.Sabrowski,E.Sabrowski,CLE,Progressive Field,10
+S.Hentges,S.Hentges,CLE,Progressive Field,10
+H.Gaddis,H.Gaddis,CLE,Progressive Field,10
+C.Carrasco,C.Carrasco,CLE,Progressive Field,10
+T.Beede,T.Beede,CLE,Progressive Field,10
+G.Williams,G.Williams,CLE,Progressive Field,10
+T.Herrin,T.Herrin,CLE,Progressive Field,10
+J.Cantillo,J.Cantillo,CLE,Progressive Field,10
+M.Boyd,M.Boyd,CLE,Progressive Field,10
+A.Cobb,A.Cobb,CLE,Progressive Field,10
+D.McCaughan,D.McCaughan,CLE,Progressive Field,10
+A.Walters,A.Walters,CLE,Progressive Field,10
+X.Curry,X.Curry,CLE,Progressive Field,10
+N.Sandlin,N.Sandlin,CLE,Progressive Field,10
+A.Gose,A.Gose,CLE,Progressive Field,10
+T.McKenzie,T.McKenzie,CLE,Progressive Field,10
+R.Feltner,R.Feltner,COL,Coors Field,10
+K.Freeland,K.Freeland,COL,Coors Field,10
+A.Chivilli,A.Chivilli,COL,Coors Field,10
+B.Blalock,B.Blalock,COL,Coors Field,10
+S.Halvorsen,S.Halvorsen,COL,Coors Field,10
+A.Gomber,A.Gomber,COL,Coors Field,10
+J.Rogers,J.Rogers,COL,Coors Field,10
+N.Davis,N.Davis,COL,Coors Field,10
+J.Lawrence,J.Lawrence,COL,Coors Field,10
+J.Criswell,J.Criswell,COL,Coors Field,10
+A.Molina,A.Molina,COL,Coors Field,10
+D.Hudson,D.Hudson,COL,Coors Field,10
+T.Gordon,T.Gordon,COL,Coors Field,10
+G.Márquez,G.Márquez,COL,Coors Field,10
+C.Quantrill,C.Quantrill,COL,Coors Field,10
+J.Beeks,J.Beeks,COL,Coors Field,10
+N.Mears,N.Mears,COL,Coors Field,10
+T.Blach,T.Blach,COL,Coors Field,10
+C.Shreve,C.Shreve,COL,Coors Field,10
+J.Hill,J.Hill,COL,Coors Field,10
+J.Bird,J.Bird,COL,Coors Field,10
+J.Curtiss,J.Curtiss,COL,Coors Field,10
+A.Senzatela,A.Senzatela,COL,Coors Field,10
+G.Hartlieb,G.Hartlieb,COL,Coors Field,10
+T.Kinley,T.Kinley,COL,Coors Field,10
+L.Gilbreath,L.Gilbreath,COL,Coors Field,10
+M.Koch,M.Koch,COL,Coors Field,10
+R.Pint,R.Pint,COL,Coors Field,10
+V.Vodnik,V.Vodnik,COL,Coors Field,10
+E.Justice,E.Justice,COL,Coors Field,10
+P.Lambert,P.Lambert,COL,Coors Field,10
+M.Carasiti,M.Carasiti,COL,Coors Field,10
+L.Peralta,L.Peralta,COL,Coors Field,10
+A.Chafin,A.Chafin,DET,Comerica Park,10
+T.Holton,T.Holton,DET,Comerica Park,10
+T.Madden,T.Madden,DET,Comerica Park,10
+C.Mize,C.Mize,DET,Comerica Park,10
+W.Vest,W.Vest,DET,Comerica Park,10
+B.Sammons,B.Sammons,DET,Comerica Park,10
+J.Foley,J.Foley,DET,Comerica Park,10
+Z.McKinstry,Z.McKinstry,DET,Comerica Park,10
+S.Miller,S.Miller,DET,Comerica Park,10
+E.Lucas,E.Lucas,DET,Comerica Park,10
+B.Brieske,B.Brieske,DET,Comerica Park,10
+R.Vanasco,R.Vanasco,DET,Comerica Park,10
+K.Montero,K.Montero,DET,Comerica Park,10
+T.Skubal,T.Skubal,DET,Comerica Park,10
+A.Lange,A.Lange,DET,Comerica Park,10
+B.Hanifee,B.Hanifee,DET,Comerica Park,10
+K.Maeda,K.Maeda,DET,Comerica Park,10
+M.Manning,M.Manning,DET,Comerica Park,10
+M.Englert,M.Englert,DET,Comerica Park,10
+A.Faedo,A.Faedo,DET,Comerica Park,10
+B.Hurter,B.Hurter,DET,Comerica Park,10
+S.Guenther,S.Guenther,DET,Comerica Park,10
+J.Jobe,J.Jobe,DET,Comerica Park,10
+R.Olson,R.Olson,DET,Comerica Park,10
+J.Flaherty,J.Flaherty,DET,Comerica Park,10
+J.Wentz,J.Wentz,DET,Comerica Park,10
+B.King,B.King,HOU,Minute Maid Park,10
+J.Kuhnel,J.Kuhnel,HOU,Minute Maid Park,10
+F.Whitley,F.Whitley,HOU,Minute Maid Park,10
+A.Speas,A.Speas,HOU,Minute Maid Park,10
+W.Suero,W.Suero,HOU,Minute Maid Park,10
+S.Martinez,S.Martinez,HOU,Minute Maid Park,10
+S.Dubin,S.Dubin,HOU,Minute Maid Park,10
+R.Blanco,R.Blanco,HOU,Minute Maid Park,10
+K.Ort,K.Ort,HOU,Minute Maid Park,10
+N.Hernandez,N.Hernandez,HOU,Minute Maid Park,10
+H.Brown,H.Brown,HOU,Minute Maid Park,10
+C.Ferguson,C.Ferguson,HOU,Minute Maid Park,10
+C.Javier,C.Javier,HOU,Minute Maid Park,10
+T.Scott,T.Scott,HOU,Minute Maid Park,10
+F.Valdez,F.Valdez,HOU,Minute Maid Park,10
+M.Díaz,M.Díaz,HOU,Minute Maid Park,10
+L.Contreras,L.Contreras,HOU,Minute Maid Park,10
+B.Henley,B.Henley,HOU,Minute Maid Park,10
+P.Mushinski,P.Mushinski,HOU,Minute Maid Park,10
+Y.Kikuchi,Y.Kikuchi,HOU,Minute Maid Park,10
+R.Montero,R.Montero,HOU,Minute Maid Park,10
+J.Bloss,J.Bloss,HOU,Minute Maid Park,10
+S.Arrighetti,S.Arrighetti,HOU,Minute Maid Park,10
+B.Abreu,B.Abreu,HOU,Minute Maid Park,10
+B.Bielak,B.Bielak,HOU,Minute Maid Park,10
+R.Pressly,R.Pressly,HOU,Minute Maid Park,10
+J.Hader,J.Hader,HOU,Minute Maid Park,10
+D.Coleman,D.Coleman,HOU,Minute Maid Park,10
+G.Kessinger,G.Kessinger,HOU,Minute Maid Park,10
+J.France,J.France,HOU,Minute Maid Park,10
+J.Verlander,J.Verlander,HOU,Minute Maid Park,10
+M.Wacha,M.Wacha,KCR,Kauffman Stadium,10
+G.Hampson,G.Hampson,KCR,Kauffman Stadium,10
+N.Anderson,N.Anderson,KCR,Kauffman Stadium,10
+J.Bowlan,J.Bowlan,KCR,Kauffman Stadium,10
+M.Sauer,M.Sauer,KCR,Kauffman Stadium,10
+H.Harvey,H.Harvey,KCR,Kauffman Stadium,10
+L.Erceg,L.Erceg,KCR,Kauffman Stadium,10
+C.Ragans,C.Ragans,KCR,Kauffman Stadium,10
+A.Zerpa,A.Zerpa,KCR,Kauffman Stadium,10
+J.Schreiber,J.Schreiber,KCR,Kauffman Stadium,10
+D.Altavilla,D.Altavilla,KCR,Kauffman Stadium,10
+J.Lyles,J.Lyles,KCR,Kauffman Stadium,10
+K.Bubic,K.Bubic,KCR,Kauffman Stadium,10
+S.Lugo,S.Lugo,KCR,Kauffman Stadium,10
+M.Lorenzen,M.Lorenzen,KCR,Kauffman Stadium,10
+B.Singer,B.Singer,KCR,Kauffman Stadium,10
+D.Lynch,D.Lynch,KCR,Kauffman Stadium,10
+J.McArthur,J.McArthur,KCR,Kauffman Stadium,10
+C.Stratton,C.Stratton,KCR,Kauffman Stadium,10
+W.Smith,W.Smith,KCR,Kauffman Stadium,10
+A.Veneziano,A.Veneziano,KCR,Kauffman Stadium,10
+A.Marsh,A.Marsh,KCR,Kauffman Stadium,10
+N.Loftin,N.Loftin,KCR,Kauffman Stadium,10
+S.Long,S.Long,KCR,Kauffman Stadium,10
+C.Hernández,C.Hernández,KCR,Kauffman Stadium,10
+N.Pratto,N.Pratto,KCR,Kauffman Stadium,10
+W.Pennington,W.Pennington,KCR,Kauffman Stadium,10
+W.Klein,W.Klein,KCR,Kauffman Stadium,10
+T.Duffey,T.Duffey,KCR,Kauffman Stadium,10
+S.Cruz,S.Cruz,KCR,Kauffman Stadium,10
+H.Crouse,H.Crouse,LAA,Angel Stadium,10
+Z.Kristofak,Z.Kristofak,LAA,Angel Stadium,10
+P.Sandoval,P.Sandoval,LAA,Angel Stadium,10
+D.Daniel,D.Daniel,LAA,Angel Stadium,10
+J.Cueto,J.Cueto,LAA,Angel Stadium,10
+J.Marte,J.Marte,LAA,Angel Stadium,10
+C.Dana,C.Dana,LAA,Angel Stadium,10
+G.Canning,G.Canning,LAA,Angel Stadium,10
+C.Tucker,C.Tucker,LAA,Angel Stadium,10
+R.Detmers,R.Detmers,LAA,Angel Stadium,10
+M.Moore,M.Moore,LAA,Angel Stadium,10
+R.Contreras,R.Contreras,LAA,Angel Stadium,10
+J.Cisnero,J.Cisnero,LAA,Angel Stadium,10
+M.Sanó,M.Sanó,LAA,Angel Stadium,10
+Z.Plesac,Z.Plesac,LAA,Angel Stadium,10
+H.Strickland,H.Strickland,LAA,Angel Stadium,10
+A.Hicks,A.Hicks,LAA,Angel Stadium,10
+C.Fulmer,C.Fulmer,LAA,Angel Stadium,10
+B.Joyce,B.Joyce,LAA,Angel Stadium,10
+R.Zeferjahn,R.Zeferjahn,LAA,Angel Stadium,10
+M.Stefanic,M.Stefanic,LAA,Angel Stadium,10
+B.Burke,B.Burke,LAA,Angel Stadium,10
+A.Garrett,A.Garrett,LAA,Angel Stadium,10
+J.Kochanowicz,J.Kochanowicz,LAA,Angel Stadium,10
+A.Cimber,A.Cimber,LAA,Angel Stadium,10
+A.Wantz,A.Wantz,LAA,Angel Stadium,10
+R.Miller,R.Miller,LAA,Angel Stadium,10
+S.Aldegheri,S.Aldegheri,LAA,Angel Stadium,10
+J.Soriano,J.Soriano,LAA,Angel Stadium,10
+T.Anderson,T.Anderson,LAA,Angel Stadium,10
+G.Zuñiga,G.Zuñiga,LAA,Angel Stadium,10
+V.Mederos,V.Mederos,LAA,Angel Stadium,10
+J.Quijada,J.Quijada,LAA,Angel Stadium,10
+C.Estévez,C.Estévez,LAA,Angel Stadium,10
+J.Suarez,J.Suarez,LAA,Angel Stadium,10
+K.Rosenberg,K.Rosenberg,LAA,Angel Stadium,10
+C.Silseth,C.Silseth,LAA,Angel Stadium,10
+C.Kershaw,C.Kershaw,LAD,Dodger Stadium,10
+R.Brasier,R.Brasier,LAD,Dodger Stadium,10
+N.Ramirez,N.Ramirez,LAD,Dodger Stadium,10
+G.Stone,G.Stone,LAD,Dodger Stadium,10
+W.Buehler,W.Buehler,LAD,Dodger Stadium,10
+M.Rojas,M.Rojas,LAD,Dodger Stadium,10
+E.Henriquez,E.Henriquez,LAD,Dodger Stadium,10
+B.Treinen,B.Treinen,LAD,Dodger Stadium,10
+C.Brogdon,C.Brogdon,LAD,Dodger Stadium,10
+E.Hernández,E.Hernández,LAD,Dodger Stadium,10
+E.Salazar,E.Salazar,LAD,Dodger Stadium,10
+J.Kelly,J.Kelly,LAD,Dodger Stadium,10
+E.Phillips,E.Phillips,LAD,Dodger Stadium,10
+N.Crismatt,N.Crismatt,LAD,Dodger Stadium,10
+B.Casparius,B.Casparius,LAD,Dodger Stadium,10
+A.Vesia,A.Vesia,LAD,Dodger Stadium,10
+Y.Yamamoto,Y.Yamamoto,LAD,Dodger Stadium,10
+B.Graterol,B.Graterol,LAD,Dodger Stadium,10
+D.Lamet,D.Lamet,LAD,Dodger Stadium,10
+M.Grove,M.Grove,LAD,Dodger Stadium,10
+A.Banda,A.Banda,LAD,Dodger Stadium,10
+T.Glasnow,T.Glasnow,LAD,Dodger Stadium,10
+L.Knack,L.Knack,LAD,Dodger Stadium,10
+R.Yarbrough,R.Yarbrough,LAD,Dodger Stadium,10
+Z.Logue,Z.Logue,LAD,Dodger Stadium,10
+J.Wrobleski,J.Wrobleski,LAD,Dodger Stadium,10
+R.Ryan,R.Ryan,LAD,Dodger Stadium,10
+K.Hurt,K.Hurt,LAD,Dodger Stadium,10
+B.Miller,B.Miller,LAD,Dodger Stadium,10
+B.Honeywell,B.Honeywell,LAD,Dodger Stadium,10
+M.Petersen,M.Petersen,LAD,Dodger Stadium,10
+J.Feyereisen,J.Feyereisen,LAD,Dodger Stadium,10
+R.Muñoz,R.Muñoz,MIA,LoanDepot Park,10
+J.McMillon,J.McMillon,MIA,LoanDepot Park,10
+B.de Geus,B.de Geus,MIA,LoanDepot Park,10
+B.Hoeing,B.Hoeing,MIA,LoanDepot Park,10
+Y.Chirinos,Y.Chirinos,MIA,LoanDepot Park,10
+E.Ramirez,E.Ramirez,MIA,LoanDepot Park,10
+V.Gutierrez,V.Gutierrez,MIA,LoanDepot Park,10
+E.Cabrera,E.Cabrera,MIA,LoanDepot Park,10
+E.Villalobos,E.Villalobos,MIA,LoanDepot Park,10
+K.Tyler,K.Tyler,MIA,LoanDepot Park,10
+R.Weathers,R.Weathers,MIA,LoanDepot Park,10
+V.Bruján,V.Bruján,MIA,LoanDepot Park,10
+K.Emanuel,K.Emanuel,MIA,LoanDepot Park,10
+A.Maldonado,A.Maldonado,MIA,LoanDepot Park,10
+L.Bachar,L.Bachar,MIA,LoanDepot Park,10
+G.Soriano,G.Soriano,MIA,LoanDepot Park,10
+A.Oller,A.Oller,MIA,LoanDepot Park,10
+D.Cronin,D.Cronin,MIA,LoanDepot Park,10
+S.Anderson,S.Anderson,MIA,LoanDepot Park,10
+A.Kitchen,A.Kitchen,MIA,LoanDepot Park,10
+A.Nardi,A.Nardi,MIA,LoanDepot Park,10
+V.Bellozo,V.Bellozo,MIA,LoanDepot Park,10
+D.Hensley,D.Hensley,MIA,LoanDepot Park,10
+S.Sánchez,S.Sánchez,MIA,LoanDepot Park,10
+E.Rivera,E.Rivera,MIA,LoanDepot Park,10
+J.Chargois,J.Chargois,MIA,LoanDepot Park,10
+A.Bender,A.Bender,MIA,LoanDepot Park,10
+M.Andriese,M.Andriese,MIA,LoanDepot Park,10
+B.Garrett,B.Garrett,MIA,LoanDepot Park,10
+C.Faucher,C.Faucher,MIA,LoanDepot Park,10
+H.Brazobán,H.Brazobán,MIA,LoanDepot Park,10
+M.Meyer,M.Meyer,MIA,LoanDepot Park,10
+J.Pereda,J.Pereda,MIA,LoanDepot Park,10
+J.Bermúdez,J.Bermúdez,MIA,LoanDepot Park,10
+J.Luzardo,J.Luzardo,MIA,LoanDepot Park,10
+F.Peralta,F.Peralta,MIL,American Family Field,10
+J.Bukauskas,J.Bukauskas,MIL,American Family Field,10
+C.Rea,C.Rea,MIL,American Family Field,10
+R.Gasser,R.Gasser,MIL,American Family Field,10
+K.Herget,K.Herget,MIL,American Family Field,10
+J.Meeker,J.Meeker,MIL,American Family Field,10
+R.Zastryzny,R.Zastryzny,MIL,American Family Field,10
+D.Williams,D.Williams,MIL,American Family Field,10
+E.Peguero,E.Peguero,MIL,American Family Field,10
+D.Hall,D.Hall,MIL,American Family Field,10
+A.Civale,A.Civale,MIL,American Family Field,10
+M.White,M.White,MIL,American Family Field,10
+H.Milner,H.Milner,MIL,American Family Field,10
+T.Myers,T.Myers,MIL,American Family Field,10
+B.Wilson,B.Wilson,MIL,American Family Field,10
+C.Rodriguez,C.Rodriguez,MIL,American Family Field,10
+W.Miley,W.Miley,MIL,American Family Field,10
+J.Bauers,J.Bauers,MIL,American Family Field,10
+J.Payamps,J.Payamps,MIL,American Family Field,10
+J.Ross,J.Ross,MIL,American Family Field,10
+D.Keuchel,D.Keuchel,MIL,American Family Field,10
+A.Ashby,A.Ashby,MIL,American Family Field,10
+J.Junk,J.Junk,MIL,American Family Field,10
+J.Koenig,J.Koenig,MIL,American Family Field,10
+O.Miller,O.Miller,MIL,American Family Field,10
+B.Hudson,B.Hudson,MIL,American Family Field,10
+T.Jay,T.Jay,MIL,American Family Field,10
+A.Uribe,A.Uribe,MIL,American Family Field,10
+T.Megill,T.Megill,MIL,American Family Field,10
+S.Okert,S.Okert,MIN,Target Field,10
+M.Wallner,M.Wallner,MIN,Target Field,10
+T.Richards,T.Richards,MIN,Target Field,10
+J.Ryan,J.Ryan,MIN,Target Field,10
+J.Winder,J.Winder,MIN,Target Field,10
+D.Duarte,D.Duarte,MIN,Target Field,10
+L.Varland,L.Varland,MIN,Target Field,10
+D.Castillo,D.Castillo,MIN,Target Field,10
+C.Paddack,C.Paddack,MIN,Target Field,10
+B.Stewart,B.Stewart,MIN,Target Field,10
+K.Farmer,K.Farmer,MIN,Target Field,10
+K.Funderburk,K.Funderburk,MIN,Target Field,10
+M.Tonkin,M.Tonkin,MIN,Target Field,10
+G.Jax,G.Jax,MIN,Target Field,10
+B.Ober,B.Ober,MIN,Target Field,10
+J.Durán,J.Durán,MIN,Target Field,10
+R.Henriquez,R.Henriquez,MIN,Target Field,10
+J.Topa,J.Topa,MIN,Target Field,10
+S.Woods Richardson,S.Woods Richardson,MIN,Target Field,10
+J.Alcalá,J.Alcalá,MIN,Target Field,10
+S.Blewett,S.Blewett,MIN,Target Field,10
+Z.Matthews,Z.Matthews,MIN,Target Field,10
+C.Thielbar,C.Thielbar,MIN,Target Field,10
+W.Castro,W.Castro,MIN,Target Field,10
+C.Boushley,C.Boushley,MIN,Target Field,10
+B.Headrick,B.Headrick,MIN,Target Field,10
+J.Jackson,J.Jackson,MIN,Target Field,10
+C.Sands,C.Sands,MIN,Target Field,10
+P.López,P.López,MIN,Target Field,10
+R.Dobnak,R.Dobnak,MIN,Target Field,10
+J.Staumont,J.Staumont,MIN,Target Field,10
+D.Festa,D.Festa,MIN,Target Field,10
+S.Reid-Foley,S.Reid-Foley,NYM,Citi Field,10
+C.Scott,C.Scott,NYM,Citi Field,10
+A.Houser,A.Houser,NYM,Citi Field,10
+T.Adcock,T.Adcock,NYM,Citi Field,10
+E.Orze,E.Orze,NYM,Citi Field,10
+L.Torrens,L.Torrens,NYM,Citi Field,10
+P.Blackburn,P.Blackburn,NYM,Citi Field,10
+J.Walker,J.Walker,NYM,Citi Field,10
+E.Alvarez,E.Alvarez,NYM,Citi Field,10
+J.Quintana,J.Quintana,NYM,Citi Field,10
+L.Severino,L.Severino,NYM,Citi Field,10
+M.Festa,M.Festa,NYM,Citi Field,10
+J.Teheran,J.Teheran,NYM,Citi Field,10
+D.Young,D.Young,NYM,Citi Field,10
+G.Hartwig,G.Hartwig,NYM,Citi Field,10
+J.Diekman,J.Diekman,NYM,Citi Field,10
+A.Ottavino,A.Ottavino,NYM,Citi Field,10
+K.Senga,K.Senga,NYM,Citi Field,10
+J.Buttó,J.Buttó,NYM,Citi Field,10
+C.Sulser,C.Sulser,NYM,Citi Field,10
+S.Manaea,S.Manaea,NYM,Citi Field,10
+B.Raley,B.Raley,NYM,Citi Field,10
+R.Stanek,R.Stanek,NYM,Citi Field,10
+P.Maton,P.Maton,NYM,Citi Field,10
+E.Díaz,E.Díaz,NYM,Citi Field,10
+D.Núñez,D.Núñez,NYM,Citi Field,10
+R.Garrett,R.Garrett,NYM,Citi Field,10
+D.Peterson,D.Peterson,NYM,Citi Field,10
+J.Lucchesi,J.Lucchesi,NYM,Citi Field,10
+C.Poteet,C.Poteet,NYY,Yankee Stadium,10
+C.Schmidt,C.Schmidt,NYY,Yankee Stadium,10
+J.Loáisiga,J.Loáisiga,NYY,Yankee Stadium,10
+J.Cousins,J.Cousins,NYY,Yankee Stadium,10
+C.Rodón,C.Rodón,NYY,Yankee Stadium,10
+A.Misiewicz,A.Misiewicz,NYY,Yankee Stadium,10
+N.Burdi,N.Burdi,NYY,Yankee Stadium,10
+C.Andrews,C.Andrews,NYY,Yankee Stadium,10
+N.Cortés,N.Cortés,NYY,Yankee Stadium,10
+M.Stroman,M.Stroman,NYY,Yankee Stadium,10
+P.Bickford,P.Bickford,NYY,Yankee Stadium,10
+O.Cabrera,O.Cabrera,NYY,Yankee Stadium,10
+L.Weaver,L.Weaver,NYY,Yankee Stadium,10
+R.Marinaccio,R.Marinaccio,NYY,Yankee Stadium,10
+J.Maciejewski,J.Maciejewski,NYY,Yankee Stadium,10
+T.Mayza,T.Mayza,NYY,Yankee Stadium,10
+L.Gil,L.Gil,NYY,Yankee Stadium,10
+S.Effross,S.Effross,NYY,Yankee Stadium,10
+T.Kahnle,T.Kahnle,NYY,Yankee Stadium,10
+C.Beeter,C.Beeter,NYY,Yankee Stadium,10
+C.Holmes,C.Holmes,NYY,Yankee Stadium,10
+J.Trevino,J.Trevino,NYY,Yankee Stadium,10
+Y.Gómez,Y.Gómez,NYY,Yankee Stadium,10
+G.Cole,G.Cole,NYY,Yankee Stadium,10
+W.Warren,W.Warren,NYY,Yankee Stadium,10
+D.Santana,D.Santana,NYY,Yankee Stadium,10
+V.González,V.González,NYY,Yankee Stadium,10
+I.Hamilton,I.Hamilton,NYY,Yankee Stadium,10
+H.Harris,H.Harris,OAK,Oakland Coliseum ,10
+R.Stripling,R.Stripling,OAK,Oakland Coliseum ,10
+B.Basso,B.Basso,OAK,Oakland Coliseum ,10
+M.Otañez,M.Otañez,OAK,Oakland Coliseum ,10
+M.Spence,M.Spence,OAK,Oakland Coliseum ,10
+A.Adams,A.Adams,OAK,Oakland Coliseum ,10
+G.Reyes,G.Reyes,OAK,Oakland Coliseum ,10
+D.Jiménez,D.Jiménez,OAK,Oakland Coliseum ,10
+J.Ginn,J.Ginn,OAK,Oakland Coliseum ,10
+T.McFarland,T.McFarland,OAK,Oakland Coliseum ,10
+O.Bido,O.Bido,OAK,Oakland Coliseum ,10
+J.O'Loughlin,J.O'Loughlin,OAK,Oakland Coliseum ,10
+A.Wood,A.Wood,OAK,Oakland Coliseum ,10
+K.Muller,K.Muller,OAK,Oakland Coliseum ,10
+J.Sears,J.Sears,OAK,Oakland Coliseum ,10
+G.Holman,G.Holman,OAK,Oakland Coliseum ,10
+L.Medina,L.Medina,OAK,Oakland Coliseum ,10
+A.Brooks,A.Brooks,OAK,Oakland Coliseum ,10
+S.Alexander,S.Alexander,OAK,Oakland Coliseum ,10
+M.Miller,M.Miller,OAK,Oakland Coliseum ,10
+J.Estes,J.Estes,OAK,Oakland Coliseum ,10
+S.Newcomb,S.Newcomb,OAK,Oakland Coliseum ,10
+J.Boyle,J.Boyle,OAK,Oakland Coliseum ,10
+T.Ferguson,T.Ferguson,OAK,Oakland Coliseum ,10
+N.Nelson,N.Nelson,PHI,Citizens Bank Park,10
+S.Turnbull,S.Turnbull,PHI,Citizens Bank Park,10
+S.Johnson,S.Johnson,PHI,Citizens Bank Park,10
+R.Suárez,R.Suárez,PHI,Citizens Bank Park,10
+J.Hoffman,J.Hoffman,PHI,Citizens Bank Park,10
+L.Ortiz,L.Ortiz,PHI,Citizens Bank Park,10
+K.Clemens,K.Clemens,PHI,Citizens Bank Park,10
+T.Phillips,T.Phillips,PHI,Citizens Bank Park,10
+T.Walker,T.Walker,PHI,Citizens Bank Park,10
+G.Stubbs,G.Stubbs,PHI,Citizens Bank Park,10
+C.Sánchez,C.Sánchez,PHI,Citizens Bank Park,10
+A.Nola,A.Nola,PHI,Citizens Bank Park,10
+M.Lazar,M.Lazar,PHI,Citizens Bank Park,10
+W.Wilson,W.Wilson,PHI,Citizens Bank Park,10
+J.Ruiz,J.Ruiz,PHI,Citizens Bank Park,10
+J.Alvarado,J.Alvarado,PHI,Citizens Bank Park,10
+Z.Wheeler,Z.Wheeler,PHI,Citizens Bank Park,10
+O.Kerkering,O.Kerkering,PHI,Citizens Bank Park,10
+T.Gilbert,T.Gilbert,PHI,Citizens Bank Park,10
+M.Mercado,M.Mercado,PHI,Citizens Bank Park,10
+K.Allard,K.Allard,PHI,Citizens Bank Park,10
+Y.Marte,Y.Marte,PHI,Citizens Bank Park,10
+R.Pinto,R.Pinto,PHI,Citizens Bank Park,10
+M.Strahm,M.Strahm,PHI,Citizens Bank Park,10
+B.Feigl,B.Feigl,PIT,PNC Park,10
+I.Mattson,I.Mattson,PIT,PNC Park,10
+R.Borucki,R.Borucki,PIT,PNC Park,10
+M.Pérez,M.Pérez,PIT,PNC Park,10
+D.Bednar,D.Bednar,PIT,PNC Park,10
+J.Hernandez,J.Hernandez,PIT,PNC Park,10
+P.Skenes,P.Skenes,PIT,PNC Park,10
+D.Germán,D.Germán,PIT,PNC Park,10
+J.Fleming,J.Fleming,PIT,PNC Park,10
+M.Burrows,M.Burrows,PIT,PNC Park,10
+M.Gonzales,M.Gonzales,PIT,PNC Park,10
+M.Keller,M.Keller,PIT,PNC Park,10
+B.Falter,B.Falter,PIT,PNC Park,10
+J.Bruihl,J.Bruihl,PIT,PNC Park,10
+D.Jefferies,D.Jefferies,PIT,PNC Park,10
+C.Mlodzinski,C.Mlodzinski,PIT,PNC Park,10
+C.Holderman,C.Holderman,PIT,PNC Park,10
+B.Heller,B.Heller,PIT,PNC Park,10
+H.Stratton,H.Stratton,PIT,PNC Park,10
+K.Nicolas,K.Nicolas,PIT,PNC Park,10
+J.Jones,J.Jones,PIT,PNC Park,10
+A.Chapman,A.Chapman,PIT,PNC Park,10
+R.Tellez,R.Tellez,PIT,PNC Park,10
+J.Estrada,J.Estrada,SDP,Petco Park,10
+T.Cosgrove,T.Cosgrove,SDP,Petco Park,10
+A.Morejón,A.Morejón,SDP,Petco Park,10
+A.Jacob,A.Jacob,SDP,Petco Park,10
+J.Musgrove,J.Musgrove,SDP,Petco Park,10
+J.Brito,J.Brito,SDP,Petco Park,10
+R.Vásquez,R.Vásquez,SDP,Petco Park,10
+L.Gillaspie,L.Gillaspie,SDP,Petco Park,10
+S.Kolek,S.Kolek,SDP,Petco Park,10
+S.Reynolds,S.Reynolds,SDP,Petco Park,10
+M.King,M.King,SDP,Petco Park,10
+Y.Darvish,Y.Darvish,SDP,Petco Park,10
+C.Edwards,C.Edwards,SDP,Petco Park,10
+D.Cease,D.Cease,SDP,Petco Park,10
+W.Peralta,W.Peralta,SDP,Petco Park,10
+M.Waldron,M.Waldron,SDP,Petco Park,10
+Y.Matsui,Y.Matsui,SDP,Petco Park,10
+A.Davis,A.Davis,SDP,Petco Park,10
+J.Adam,J.Adam,SDP,Petco Park,10
+A.Mazur,A.Mazur,SDP,Petco Park,10
+R.Suarez,R.Suarez,SDP,Petco Park,10
+L.Roupp,L.Roupp,SFG,Oracle Park,10
+D.Walton,D.Walton,SFG,Oracle Park,10
+M.Black,M.Black,SFG,Oracle Park,10
+N.Avila,N.Avila,SFG,Oracle Park,10
+S.Bivens,S.Bivens,SFG,Oracle Park,10
+E.Miller,E.Miller,SFG,Oracle Park,10
+C.Doval,C.Doval,SFG,Oracle Park,10
+S.Hjelle,S.Hjelle,SFG,Oracle Park,10
+R.Burgos,R.Burgos,SFG,Oracle Park,10
+R.Walker,R.Walker,SFG,Oracle Park,10
+K.Winn,K.Winn,SFG,Oracle Park,10
+H.Birdsong,H.Birdsong,SFG,Oracle Park,10
+T.McDonald,T.McDonald,SFG,Oracle Park,10
+T.Fitzgerald,T.Fitzgerald,SFG,Oracle Park,10
+R.Rodríguez,R.Rodríguez,SFG,Oracle Park,10
+A.Warren,A.Warren,SFG,Oracle Park,10
+R.Ray,R.Ray,SFG,Oracle Park,10
+J.Hicks,J.Hicks,SFG,Oracle Park,10
+K.Teng,K.Teng,SFG,Oracle Park,10
+B.Snell,B.Snell,SFG,Oracle Park,10
+K.Harrison,K.Harrison,SFG,Oracle Park,10
+T.Beck,T.Beck,SFG,Oracle Park,10
+L.Webb,L.Webb,SFG,Oracle Park,10
+M.Yastrzemski,M.Yastrzemski,SFG,Oracle Park,10
+E.Hancock,E.Hancock,SEA,T-Mobile Park,10
+J.Rojas,J.Rojas,SEA,T-Mobile Park,10
+J.Hernández,J.Hernández,SEA,T-Mobile Park,10
+T.Saucedo,T.Saucedo,SEA,T-Mobile Park,10
+A.Voth,A.Voth,SEA,T-Mobile Park,10
+L.Gilbert,L.Gilbert,SEA,T-Mobile Park,10
+G.Kirby,G.Kirby,SEA,T-Mobile Park,10
+G.Speier,G.Speier,SEA,T-Mobile Park,10
+C.Bolton,C.Bolton,SEA,T-Mobile Park,10
+C.Snider,C.Snider,SEA,T-Mobile Park,10
+Y.García,Y.García,SEA,T-Mobile Park,10
+L.Rivas,L.Rivas,SEA,T-Mobile Park,10
+J.Díaz,J.Díaz,SEA,T-Mobile Park,10
+A.Muñoz,A.Muñoz,SEA,T-Mobile Park,10
+B.Woo,B.Woo,SEA,T-Mobile Park,10
+L.Castillo,L.Castillo,SEA,T-Mobile Park,10
+E.Bazardo,E.Bazardo,SEA,T-Mobile Park,10
+K.Snead,K.Snead,SEA,T-Mobile Park,10
+T.Thornton,T.Thornton,SEA,T-Mobile Park,10
+T.Taylor,T.Taylor,SEA,T-Mobile Park,10
+G.Santos,G.Santos,SEA,T-Mobile Park,10
+R.O'Brien,R.O'Brien,STL,Busch Stadium,10
+J.King,J.King,STL,Busch Stadium,10
+Z.Thompson,Z.Thompson,STL,Busch Stadium,10
+C.Roycroft,C.Roycroft,STL,Busch Stadium,10
+K.Gibson,K.Gibson,STL,Busch Stadium,10
+L.Lynn,L.Lynn,STL,Busch Stadium,10
+G.Gallegos,G.Gallegos,STL,Busch Stadium,10
+A.Kittredge,A.Kittredge,STL,Busch Stadium,10
+J.Romero,J.Romero,STL,Busch Stadium,10
+R.Loutos,R.Loutos,STL,Busch Stadium,10
+B.Crawford,B.Crawford,STL,Busch Stadium,10
+K.Leahy,K.Leahy,STL,Busch Stadium,10
+M.McGreevy,M.McGreevy,STL,Busch Stadium,10
+S.Gray,S.Gray,STL,Busch Stadium,10
+A.Pallante,A.Pallante,STL,Busch Stadium,10
+M.Mikolas,M.Mikolas,STL,Busch Stadium,10
+N.Robertson,N.Robertson,STL,Busch Stadium,10
+A.Kloffenstein,A.Kloffenstein,STL,Busch Stadium,10
+M.Liberatore,M.Liberatore,STL,Busch Stadium,10
+R.Helsley,R.Helsley,STL,Busch Stadium,10
+S.Matz,S.Matz,STL,Busch Stadium,10
+G.Graceffo,G.Graceffo,STL,Busch Stadium,10
+R.Fernandez,R.Fernandez,STL,Busch Stadium,10
+J.Sterner,J.Sterner,TBR,Tropicana Field,10
+S.Baz,S.Baz,TBR,Tropicana Field,10
+T.Zuber,T.Zuber,TBR,Tropicana Field,10
+Z.Littell,Z.Littell,TBR,Tropicana Field,10
+D.Rasmussen,D.Rasmussen,TBR,Tropicana Field,10
+J.Lopez,J.Lopez,TBR,Tropicana Field,10
+E.Uceta,E.Uceta,TBR,Tropicana Field,10
+T.Alexander,T.Alexander,TBR,Tropicana Field,10
+C.Poche,C.Poche,TBR,Tropicana Field,10
+B.Rortvedt,B.Rortvedt,TBR,Tropicana Field,10
+C.Devenski,C.Devenski,TBR,Tropicana Field,10
+K.Kelly,K.Kelly,TBR,Tropicana Field,10
+M.Rodríguez,M.Rodríguez,TBR,Tropicana Field,10
+P.Fairbanks,P.Fairbanks,TBR,Tropicana Field,10
+M.Montgomery,M.Montgomery,TBR,Tropicana Field,10
+G.Cleavinger,G.Cleavinger,TBR,Tropicana Field,10
+T.Bradley,T.Bradley,TBR,Tropicana Field,10
+R.Pepiot,R.Pepiot,TBR,Tropicana Field,10
+J.Waguespack,J.Waguespack,TBR,Tropicana Field,10
+E.Ramírez,E.Ramírez,TBR,Tropicana Field,10
+J.Springs,J.Springs,TBR,Tropicana Field,10
+J.Ureña,J.Ureña,TEX,Globe Life Field,10
+A.Knizner,A.Knizner,TEX,Globe Life Field,10
+D.Robert,D.Robert,TEX,Globe Life Field,10
+J.Sborz,J.Sborz,TEX,Globe Life Field,10
+D.Dunning,D.Dunning,TEX,Globe Life Field,10
+Y.Rodríguez,Y.Rodríguez,TEX,Globe Life Field,10
+G.Garabito,G.Garabito,TEX,Globe Life Field,10
+T.Mahle,T.Mahle,TEX,Globe Life Field,10
+C.Winn,C.Winn,TEX,Globe Life Field,10
+C.Bradford,C.Bradford,TEX,Globe Life Field,10
+J.Leiter,J.Leiter,TEX,Globe Life Field,10
+O.White,O.White,TEX,Globe Life Field,10
+J.Gray,J.Gray,TEX,Globe Life Field,10
+G.Anderson,G.Anderson,TEX,Globe Life Field,10
+K.Yates,K.Yates,TEX,Globe Life Field,10
+J.deGrom,J.deGrom,TEX,Globe Life Field,10
+A.Pruitt,A.Pruitt,TEX,Globe Life Field,10
+M.Scherzer,M.Scherzer,TEX,Globe Life Field,10
+J.Latz,J.Latz,TEX,Globe Life Field,10
+D.Robertson,D.Robertson,TEX,Globe Life Field,10
+K.Rocker,K.Rocker,TEX,Globe Life Field,10
+M.Church,M.Church,TEX,Globe Life Field,10
+N.Eovaldi,N.Eovaldi,TEX,Globe Life Field,10
+A.Heaney,A.Heaney,TEX,Globe Life Field,10
+J.Leclerc,J.Leclerc,TEX,Globe Life Field,10
+P.Espino,P.Espino,TOR,Rogers Centre,10
+B.Little,B.Little,TOR,Rogers Centre,10
+A.Manoah,A.Manoah,TOR,Rogers Centre,10
+Z.Pop,Z.Pop,TOR,Rogers Centre,10
+G.Cabrera,G.Cabrera,TOR,Rogers Centre,10
+T.Nance,T.Nance,TOR,Rogers Centre,10
+C.Green,C.Green,TOR,Rogers Centre,10
+J.Romano,J.Romano,TOR,Rogers Centre,10
+I.Kiner-Falefa,I.Kiner-Falefa,TOR,Rogers Centre,10
+R.Burr,R.Burr,TOR,Rogers Centre,10
+B.Eisert,B.Eisert,TOR,Rogers Centre,10
+E.Swanson,E.Swanson,TOR,Rogers Centre,10
+J.Berríos,J.Berríos,TOR,Rogers Centre,10
+C.Bassitt,C.Bassitt,TOR,Rogers Centre,10
+T.Heineman,T.Heineman,TOR,Rogers Centre,10
+K.Gausman,K.Gausman,TOR,Rogers Centre,10
+E.Clement,E.Clement,TOR,Rogers Centre,10
+B.Francis,B.Francis,TOR,Rogers Centre,10
+J.La Sorsa,J.La Sorsa,WSN,Nationals Park,10
+O.Ribalta,O.Ribalta,WSN,Nationals Park,10
+P.Corbin,P.Corbin,WSN,Nationals Park,10
+M.Barnes,M.Barnes,WSN,Nationals Park,10
+K.Finnegan,K.Finnegan,WSN,Nationals Park,10
+J.Adon,J.Adon,WSN,Nationals Park,10
+J.Rutledge,J.Rutledge,WSN,Nationals Park,10
+J.Weems,J.Weems,WSN,Nationals Park,10
+M.Parker,M.Parker,WSN,Nationals Park,10
+T.Williams,T.Williams,WSN,Nationals Park,10
+J.Irvin,J.Irvin,WSN,Nationals Park,10
+D.Herz,D.Herz,WSN,Nationals Park,10
+R.Garcia,R.Garcia,WSN,Nationals Park,10
+D.Law,D.Law,WSN,Nationals Park,10
+M.Gore,M.Gore,WSN,Nationals Park,10
+J.Barnes,J.Barnes,WSN,Nationals Park,10
+Z.Brzykcy,Z.Brzykcy,WSN,Nationals Park,10
+I.Vargas,I.Vargas,WSN,Nationals Park,10
+J.Ferrer,J.Ferrer,WSN,Nationals Park,10
+T.Rainey,T.Rainey,WSN,Nationals Park,10
+A.Willingham,A.Willingham,WSN,Nationals Park,10
