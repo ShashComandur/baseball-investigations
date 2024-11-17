@@ -6,3 +6,9 @@
   title="Retina"
   allowFullScreen
 ></iframe>
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
